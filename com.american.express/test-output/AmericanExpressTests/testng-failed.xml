@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AmericanExpressTests]">
+  <test thread-count="5" name="AmexTest1(failed)">
+    <parameter name="browser" value="safari"/>
+    <parameter name="testURL" value="https://www.americanexpress.com/fr-fr/?inav=NavLogo"/>
+    <classes>
+      <class name="com.american.express.tests.AmexTest1">
+        <methods>
+          <include name="setUp"/>
+          <include name="testNavigateToCartesAmericanExpress"/>
+          <include name="setTestURL"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.american.express.tests.AmexTest1 -->
+    </classes>
+  </test> <!-- AmexTest1(failed) -->
+  <test thread-count="5" name="AmexTest2(failed)">
+    <parameter name="browser" value="safari"/>
+    <parameter name="testURL" value="https://www.americanexpress.com/fr/carte-de-paiement/types-cartes/cartes-proprietaires/?intlink=fr-fr-hp-product1-all-pry_cartes-01032021"/>
+    <classes>
+      <class name="com.american.express.tests.AmexTest2">
+        <methods>
+          <include name="setUp"/>
+          <include name="testGoldCardNavigation"/>
+          <include name="setTestURL"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.american.express.tests.AmexTest2 -->
+    </classes>
+  </test> <!-- AmexTest2(failed) -->
+  <test thread-count="5" name="AmexTest3(failed)">
+    <parameter name="browser" value="safari"/>
+    <parameter name="testURL" value="https://www.americanexpress.com/fr-fr/charge-cards/apply/personal/gold?sourcecode=A0000FE43V&amp;intlink=fr-amex-cardshop-details-apply-GoldCardAmericanExpress-siderail"/>
+    <classes>
+      <class name="com.american.express.tests.AmexTest3">
+        <methods>
+          <include name="setUp"/>
+          <include name="testBasicValidations"/>
+          <include name="setTestURL"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.american.express.tests.AmexTest3 -->
+    </classes>
+  </test> <!-- AmexTest3(failed) -->
+</suite> <!-- Failed suite [AmericanExpressTests] -->

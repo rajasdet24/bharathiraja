@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-12T22:32:48 IST" name="AmericanExpressTests" finished-at="2025-02-12T22:34:12 IST" duration-ms="84364">
+    <groups>
+    </groups>
+    <test started-at="2025-02-12T22:32:48 IST" name="AmexTest1" finished-at="2025-02-12T22:34:00 IST" duration-ms="71891">
+      <class name="com.american.express.tests.AmexTest1">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.american.express.tests.AmexTest1@18920cc]" started-at="2025-02-12T22:32:48 IST" name="setUp" finished-at="2025-02-12T22:33:16 IST" duration-ms="27536" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.americanexpress.com/fr-fr/?inav=NavLogo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setTestURL(java.lang.String)[pri:0, instance:com.american.express.tests.AmexTest1@18920cc]" started-at="2025-02-12T22:33:16 IST" name="setTestURL" finished-at="2025-02-12T22:33:38 IST" duration-ms="22280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.americanexpress.com/fr-fr/?inav=NavLogo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestURL -->
+        <test-method signature="testNavigateToCartesAmericanExpress()[pri:0, instance:com.american.express.tests.AmexTest1@18920cc]" started-at="2025-02-12T22:33:38 IST" name="testNavigateToCartesAmericanExpress" finished-at="2025-02-12T22:34:00 IST" duration-ms="21859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToCartesAmericanExpress -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.american.express.tests.AmexTest1@18920cc]" started-at="2025-02-12T22:34:00 IST" name="tearDown" finished-at="2025-02-12T22:34:00 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.american.express.tests.AmexTest1 -->
+    </test> <!-- AmexTest1 -->
+    <test started-at="2025-02-12T22:34:00 IST" name="AmexTest2" finished-at="2025-02-12T22:34:06 IST" duration-ms="6426">
+      <class name="com.american.express.tests.AmexTest2">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.american.express.tests.AmexTest2@7cbc3762]" started-at="2025-02-12T22:34:00 IST" name="setUp" finished-at="2025-02-12T22:34:05 IST" duration-ms="4690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.americanexpress.com/fr/carte-de-paiement/types-cartes/cartes-proprietaires/?intlink=fr-fr-hp-product1-all-pry_cartes-01032021]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setTestURL(java.lang.String)[pri:0, instance:com.american.express.tests.AmexTest2@7cbc3762]" started-at="2025-02-12T22:34:05 IST" name="setTestURL" finished-at="2025-02-12T22:34:05 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.americanexpress.com/fr/carte-de-paiement/types-cartes/cartes-proprietaires/?intlink=fr-fr-hp-product1-all-pry_cartes-01032021]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestURL -->
+        <test-method signature="testGoldCardNavigation()[pri:0, instance:com.american.express.tests.AmexTest2@7cbc3762]" started-at="2025-02-12T22:34:05 IST" name="testGoldCardNavigation" finished-at="2025-02-12T22:34:06 IST" duration-ms="1652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoldCardNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.american.express.tests.AmexTest2@7cbc3762]" started-at="2025-02-12T22:34:06 IST" name="tearDown" finished-at="2025-02-12T22:34:06 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.american.express.tests.AmexTest2 -->
+    </test> <!-- AmexTest2 -->
+    <test started-at="2025-02-12T22:34:06 IST" name="AmexTest3" finished-at="2025-02-12T22:34:12 IST" duration-ms="5996">
+      <class name="com.american.express.tests.AmexTest3">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.american.express.tests.AmexTest3@2f48b3d2]" started-at="2025-02-12T22:34:06 IST" name="setUp" finished-at="2025-02-12T22:34:10 IST" duration-ms="3955" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.americanexpress.com/fr-fr/charge-cards/apply/personal/gold?sourcecode=A0000FE43V&intlink=fr-amex-cardshop-details-apply-GoldCardAmericanExpress-siderail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setTestURL(java.lang.String)[pri:0, instance:com.american.express.tests.AmexTest3@2f48b3d2]" started-at="2025-02-12T22:34:10 IST" name="setTestURL" finished-at="2025-02-12T22:34:10 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.americanexpress.com/fr-fr/charge-cards/apply/personal/gold?sourcecode=A0000FE43V&intlink=fr-amex-cardshop-details-apply-GoldCardAmericanExpress-siderail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestURL -->
+        <test-method signature="testBasicValidations()[pri:0, instance:com.american.express.tests.AmexTest3@2f48b3d2]" started-at="2025-02-12T22:34:10 IST" name="testBasicValidations" finished-at="2025-02-12T22:34:12 IST" duration-ms="1702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBasicValidations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.american.express.tests.AmexTest3@2f48b3d2]" started-at="2025-02-12T22:34:12 IST" name="tearDown" finished-at="2025-02-12T22:34:12 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.american.express.tests.AmexTest3 -->
+    </test> <!-- AmexTest3 -->
+  </suite> <!-- AmericanExpressTests -->
+</testng-results>

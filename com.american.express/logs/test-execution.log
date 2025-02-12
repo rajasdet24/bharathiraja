@@ -1,0 +1,24 @@
+2025-02-12 22:32:48 [main] INFO  BaseTest - Initializing WebDriver...
+2025-02-12 22:33:16 [main] INFO  BaseTest - Navigated to Amex URL Page
+2025-02-12 22:33:48 [main] INFO  AmexTest1 - Clicked acceptCookiesButton button
+2025-02-12 22:33:58 [main] INFO  AmexTest1 - Clicked cartesLink button
+2025-02-12 22:34:00 [main] INFO  AmexTest1 - Assertion is completed
+2025-02-12 22:34:00 [main] INFO  AmexTest1 - Web Driver is closed successfully
+2025-02-12 22:34:00 [main] INFO  BaseTest - Initializing WebDriver...
+2025-02-12 22:34:05 [main] INFO  BaseTest - Navigated to Amex URL Page
+2025-02-12 22:34:06 [main] INFO  HomePage - Clicked acceptCookiesButton button
+2025-02-12 22:34:06 [main] INFO  HomePage - Clicked enSavoirPlusBtn button
+2025-02-12 22:34:06 [main] INFO  AmexTest2 - Assertion is successfully completed
+2025-02-12 22:34:06 [main] INFO  AmexTest2 - Web Driver is successfully completed
+2025-02-12 22:34:06 [main] INFO  BaseTest - Initializing WebDriver...
+2025-02-12 22:34:10 [main] INFO  BaseTest - Navigated to Amex URL Page
+2025-02-12 22:34:12 [main] INFO  AmexTest3 - Clicked acceptCookiesButton button
+2025-02-12 22:34:12 [main] INFO  AmexTest3 - Clicked MR Radio button
+2025-02-12 22:34:12 [main] INFO  AmexTest3 - Entered First Name
+2025-02-12 22:34:12 [main] INFO  AmexTest3 - Entered Last Name
+2025-02-12 22:34:12 [main] INFO  AmexTest3 - Entered DOB
+2025-02-12 22:34:12 [main] INFO  AmexTest3 - Entered Email
+2025-02-12 22:34:12 [main] INFO  AmexTest3 - Entered phone number
+2025-02-12 22:34:12 [main] INFO  AmexTest3 - Clicked javascript click continue button
+2025-02-12 22:34:12 [main] INFO  AmexTest3 - Assertion validation is completed
+2025-02-12 22:34:12 [main] INFO  AmexTest3 - WebDriver closed successfully
